@@ -91,7 +91,7 @@ test('returns the sum, negative', ()=> {
   });
 });
 
-describe('Calculating the Average - averageNumbers #4', ()=> {
+describe.only('Calculating the Average - averageNumbers #4', ()=> {
 test('Defines averageNumbers', ()=> {
     expect(typeof averageNumbers).toBe('function');
   });
